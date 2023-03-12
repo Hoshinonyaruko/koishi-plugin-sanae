@@ -1,0 +1,57 @@
+{
+  "name": "koishi-plugin-sanae",
+  "description": "kochiyasanae plugin",
+  "version": "1.0.1",
+  "contributors": [
+    "Hoshinonyaruko <applegm@me.com>"
+  ],
+  "main": "lib/index.js",
+  "homepage": "https://www.yuque.com/km57bt/hlhnxg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hoshinonyaruko/koishi-plugin-sanae.git"
+  },
+  "keywords": [
+    "早苗狐",
+    "sanae",
+    "早苗",
+    "澪",
+    "浅羽",
+    "逆流茶会",
+    "东风谷",
+    "ai绘图",
+    "gpt",
+    "聊天",
+    "机器人",
+    "chatbot",
+    "koishi",
+    "plugin",
+    "一键",
+    "云插件"
+  ],
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "peerDependencies": {
+    "koishi": "^4.11.9"
+  },
+  "koishi": {
+    "description": {
+      "en": "Kochiya sanae plugin",
+      "zh": "早苗插件,便捷接入早苗使用早苗的功能,免费."
+    },
+    "service": {
+      "required": ["database"],
+      "optional": ["assets"],
+      "implements": ["dialogue"]
+    },
+    "locales": ["en", "zh"]
+  },
+  "dependencies": {
+    "ws": "^8.4.0"
+  }
+}
