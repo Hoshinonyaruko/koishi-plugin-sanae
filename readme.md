@@ -11,14 +11,18 @@ kochiyasanae plugin
 插件参考:
 1，底层(插件连接的对象,我曾经写的mypcqq的ob11应用端)
 https://github.com/Hoshinonyaruko/SanaeBot
+
 2,参考的我之前写的js的yunzai-ws交互
 https://github.com/Hoshinonyaruko/Yunzai-ws
+
 3,参考了satori的koishi ob11实现
 https://github.com/satorijs/satori
 
 使用方法
 1，安装好插件，设置好ws地址，端口
+
 2，群里头发，早苗on，就打开了
+
 3，群里头发，/help，看用法
 
 询问开发者问题：
